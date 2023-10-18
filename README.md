@@ -1,4 +1,3 @@
-# serilog-demo
 ## Serilog Demo Application with Seq visualization
 
 Hello everyone,
