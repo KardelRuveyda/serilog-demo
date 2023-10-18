@@ -98,8 +98,7 @@ Next let's integrate Serilog into our application by registering it as a logging
 ![image](https://github.com/KardelRuveyda/serilog-demo/assets/33912144/6b79b5ef-8203-4dba-b0c8-6bc11881cc93)
 
 **Let's open the appsetting.json file and configure Serilog. I ınsert the sample configuration. Let's take a look at it first there using property where we define an array of log targets.In Serilog log targets are called Sinks. We configure an array with a single Sinks the Serilog.Sinks.File.**
--**Next, we can configure log levels and more importantly to write to section.In the write to section, we configure information for the file Sink. The Name property with the value file defines that the property provided in the orgs property will be used for file Sink. We configured a path where our log file
-- should be written. The rolling interval property defines when a new file should be created and the output template defines the structre of the log output for each log statement.**
+-**Next, we can configure log levels and more importantly to write to section.In the write to section, we configure information for the file Sink. The Name property with the value file defines that the property provided in the orgs property will be used for file Sink. We configured a path where our log file should be written. The rolling interval property defines when a new file should be created and the output template defines the structre of the log output for each log statement.**
 
 
 ![image](https://github.com/KardelRuveyda/serilog-demo/assets/33912144/a00ada6f-363f-4c91-90ad-a6b1b26370e6)
